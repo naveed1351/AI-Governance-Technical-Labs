@@ -1,0 +1,33 @@
+# Core Azure identity & Foundry
+azure-identity>=1.19.0
+azure-ai-projects>=2.2.0
+azure-ai-evaluation>=1.0.0
+azure-ai-inference>=1.0.0b6
+
+# AI Search
+azure-search-documents>=11.5.2
+
+# Azure management plane (fleet inventory, quota, cost)
+azure-mgmt-resource>=23.1.1
+azure-mgmt-cognitiveservices>=13.5.0
+azure-mgmt-costmanagement>=4.0.1
+azure-mgmt-apimanagement>=4.0.0
+azure-mgmt-purview>=1.0.0
+
+# Microsoft Graph (Purview Data Security APIs live in Graph beta)
+msgraph-sdk>=1.5.0
+
+# Observability / tracing
+azure-monitor-opentelemetry>=1.6.0
+opentelemetry-sdk>=1.27.0
+opentelemetry-instrumentation>=0.48b0
+
+# Utilities
+python-dotenv>=1.0.1
+pandas>=2.2.0
+requests>=2.32.0
+rich>=13.9.0
+
+# Notebooks
+jupyter>=1.1.1
+ipykernel>=6.29.5
